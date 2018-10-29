@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.meganexus.SIT_AutomationTesting.utility.Listener"></listener>
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT001AllocateOffender" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT080DI_UnpaidWorkContact_Inb" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT017Registration_Out" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT020Registration_Inb" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT030TerminateSentence_Inb" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT032TerminateSentence_Inb" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT039AllocateEvent" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT041AllocateEvent" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT070MCS_CustodyRecall_Inb" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT006Address_Inb" />
+			<class
+				name="com.meganexus.SIT_AutomationTesting.Test.E2ESIT082DI_DrugsTest_Inb" />
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
